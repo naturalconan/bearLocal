@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Data Analysis Tool for Average Bioequivalence and
+Bioavailability</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Data Analysis Tool for Average Bioequivalence and
+Bioavailability
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;bear&rsquo; version 2.9.2</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#O">O</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#X">X</a>
+<a href="#Y">Y</a>
+</p>
+
+
+<h2><a id="A">-- A --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="about.bear.html">about.bear</a></td>
+<td>about.bear</td></tr>
+<tr><td style="width: 25%;"><a href="aic.html">aic</a></td>
+<td>Akaike information criterion (AIC) method</td></tr>
+<tr><td style="width: 25%;"><a href="AICdemo.html">AICdemo</a></td>
+<td>Akaike information criterion (AIC) method for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="AICoutput.html">AICoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method</td></tr>
+<tr><td style="width: 25%;"><a href="AIC_BANOVA.html">AIC_BANOVA</a></td>
+<td>Akaike information criterion (AIC) method and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="ARS.html">ARS</a></td>
+<td>Adjusted R squared (ARS) method</td></tr>
+<tr><td style="width: 25%;"><a href="ARS.BANOVA.html">ARS.BANOVA</a></td>
+<td>Adjusted R squared (ARS) method and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="ARSdemo.html">ARSdemo</a></td>
+<td>Adjusted R squared (ARS) method for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="ARSdemo.BANOVA.html">ARSdemo.BANOVA</a></td>
+<td>Adjusted R squared (ARS) method and ANOVA for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="ARSoutput.html">ARSoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method</td></tr>
+</table>
+
+<h2><a id="B">-- B --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="BANOVA.html">BANOVA</a></td>
+<td>Statistical analysis (ANOVA(lm), 90CI...)</td></tr>
+<tr><td style="width: 25%;"><a href="BANOVAanalyze.html">BANOVAanalyze</a></td>
+<td>ANOVA function</td></tr>
+<tr><td style="width: 25%;"><a href="BANOVAcsv.html">BANOVAcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="BANOVAdata.html">BANOVAdata</a></td>
+<td>Input/Edit data for ANOVA function</td></tr>
+<tr><td style="width: 25%;"><a href="BANOVAmenu.html">BANOVAmenu</a></td>
+<td>List of ANOVA Menu</td></tr>
+<tr><td style="width: 25%;"><a href="BANOVAoutput.html">BANOVAoutput</a></td>
+<td>Output of ANOVA function</td></tr>
+<tr><td style="width: 25%;"><a href="BANOVAplot.html">BANOVAplot</a></td>
+<td>BANOVAplot</td></tr>
+<tr><td style="width: 25%;"><a href="bear.setup.html">bear.setup</a></td>
+<td>Setup module for bear</td></tr>
+<tr><td style="width: 25%;"><a href="bye.html">bye</a></td>
+<td>The final step Menu</td></tr>
+</table>
+
+<h2><a id="C">-- C --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="create.products_sum.html">create.products_sum</a></td>
+<td>create.products_sum</td></tr>
+</table>
+
+<h2><a id="D">-- D --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="demoBANOVA.html">demoBANOVA</a></td>
+<td>Statistical analysis (ANOVA(lm), 90CI...)for demo file</td></tr>
+<tr><td style="width: 25%;"><a href="demomenu.html">demomenu</a></td>
+<td>menu for NCA demo file</td></tr>
+<tr><td style="width: 25%;"><a href="demomenu1.html">demomenu1</a></td>
+<td>menu for NCA demo file</td></tr>
+<tr><td style="width: 25%;"><a href="demopara.html">demopara</a></td>
+<td>Demo for sample size estimation</td></tr>
+<tr><td style="width: 25%;"><a href="demo_datasets_gen.html">demo_datasets_gen</a></td>
+<td>To generate all demo datasets for testing purposes</td></tr>
+<tr><td style="width: 25%;"><a href="description_AIC.html">description_AIC</a></td>
+<td>Description for Akaike information criterion (AIC) method</td></tr>
+<tr><td style="width: 25%;"><a href="description_ARS.html">description_ARS</a></td>
+<td>Description for Adjusted R squared (ARS) method</td></tr>
+<tr><td style="width: 25%;"><a href="description_BANOVA.html">description_BANOVA</a></td>
+<td>Description for ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="description_BE_criteria.html">description_BE_criteria</a></td>
+<td>Display BE criteia for Two One-Sided Test for all pivotal parameters</td></tr>
+<tr><td style="width: 25%;"><a href="description_drug.html">description_drug</a></td>
+<td>Description for drug</td></tr>
+<tr><td style="width: 25%;"><a href="description_drugcode.html">description_drugcode</a></td>
+<td>Description for drug code</td></tr>
+<tr><td style="width: 25%;"><a href="description_import.html">description_import</a></td>
+<td>Description for import csv</td></tr>
+<tr><td style="width: 25%;"><a href="description_load.html">description_load</a></td>
+<td>Description for load Rdata</td></tr>
+<tr><td style="width: 25%;"><a href="description_Multipledrugcode.html">description_Multipledrugcode</a></td>
+<td>Description for drug code for multiple study</td></tr>
+<tr><td style="width: 25%;"><a href="description_NCA.html">description_NCA</a></td>
+<td>Description for Noncompartmental analysis (NCA)</td></tr>
+<tr><td style="width: 25%;"><a href="description_NCAcsv.html">description_NCAcsv</a></td>
+<td>Description for NCA csv file</td></tr>
+<tr><td style="width: 25%;"><a href="description_NCAinput.html">description_NCAinput</a></td>
+<td>Description for NCA input data</td></tr>
+<tr><td style="width: 25%;"><a href="description_ParaMIX.html">description_ParaMIX</a></td>
+<td>Description for lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="description_ParaNCAcsv.html">description_ParaNCAcsv</a></td>
+<td>Description for NCA csv file for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="description_ParaNCAinput.html">description_ParaNCAinput</a></td>
+<td>Description for NCA input data for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="description_plot.html">description_plot</a></td>
+<td>Description for plot</td></tr>
+<tr><td style="width: 25%;"><a href="description_pointselect.html">description_pointselect</a></td>
+<td>description_pointselect</td></tr>
+<tr><td style="width: 25%;"><a href="description_Repdrugcode.html">description_Repdrugcode</a></td>
+<td>Description of drug code for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="description_RepMIX.html">description_RepMIX</a></td>
+<td>Description for lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="description_RepNCAcsv.html">description_RepNCAcsv</a></td>
+<td>Description of NCA csv file for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="description_RepNCAinput.html">description_RepNCAinput</a></td>
+<td>Description for NCA input data for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="description_TOST1_lnAUC0INF.html">description_TOST1_lnAUC0INF</a></td>
+<td>Description for Two One-Sided Test for lnAUC0INF</td></tr>
+<tr><td style="width: 25%;"><a href="description_TOST1_lnAUC0t.html">description_TOST1_lnAUC0t</a></td>
+<td>Description for Two One-Sided Test for lnAUC0t</td></tr>
+<tr><td style="width: 25%;"><a href="description_TOST1_lnCmax.html">description_TOST1_lnCmax</a></td>
+<td>Description for Two One-Sided Test for lnCmax</td></tr>
+<tr><td style="width: 25%;"><a href="description_TOST_lnAUC0INF.html">description_TOST_lnAUC0INF</a></td>
+<td>Description for Two One-Sided Test for lnAUC0INF</td></tr>
+<tr><td style="width: 25%;"><a href="description_TOST_lnAUC0t.html">description_TOST_lnAUC0t</a></td>
+<td>Description for Two One-Sided Test for lnAUC0t</td></tr>
+<tr><td style="width: 25%;"><a href="description_TOST_lnCmax.html">description_TOST_lnCmax</a></td>
+<td>Description for Two One-Sided Test for lnCmax</td></tr>
+<tr><td style="width: 25%;"><a href="description_TTT.html">description_TTT</a></td>
+<td>Description for Two Times Tmax (TTT) method</td></tr>
+<tr><td style="width: 25%;"><a href="description_TTTAIC.html">description_TTTAIC</a></td>
+<td>Description for Two-Times-Tmax (TTT) and Akaike information criterion (AIC)</td></tr>
+<tr><td style="width: 25%;"><a href="description_TTTARS.html">description_TTTARS</a></td>
+<td>Description for Two Times Tmax (TTT) and Adjusted R squared (ARS)</td></tr>
+<tr><td style="width: 25%;"><a href="description_version.html">description_version</a></td>
+<td>Description for version</td></tr>
+</table>
+
+<h2><a id="E">-- E --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="entertitle.html">entertitle</a></td>
+<td>enter Dose, xaxis and yaxis</td></tr>
+<tr><td style="width: 25%;"><a href="entertitle.demo.html">entertitle.demo</a></td>
+<td>enter Dose, xaxis and yaxis for demo file</td></tr>
+</table>
+
+<h2><a id="G">-- G --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="go.html">go</a></td>
+<td>List of bear Menu</td></tr>
+</table>
+
+<h2><a id="H">-- H --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="helper.func.html">helper.func</a></td>
+<td>helper.func</td></tr>
+</table>
+
+<h2><a id="I">-- I --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="icd.check.html">icd.check</a></td>
+<td>icd.check</td></tr>
+<tr><td style="width: 25%;"><a href="indiv_dp.output.html">indiv_dp.output</a></td>
+<td>to generate list of individual data points as .csv format</td></tr>
+</table>
+
+<h2><a id="L">-- L --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="lm.mod.html">lm.mod</a></td>
+<td>module to run both lm() and aov()</td></tr>
+<tr><td style="width: 25%;"><a href="lme_lm.mod.html">lme_lm.mod</a></td>
+<td>module to run both lme() or lm()</td></tr>
+<tr><td style="width: 25%;"><a href="logdata.html">logdata</a></td>
+<td>Sample size estimation for log transformation data for crossover and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="logo_plot_desc.html">logo_plot_desc</a></td>
+<td>Description for NCA/ODA plots version</td></tr>
+</table>
+
+<h2><a id="M">-- M --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="Multiple1menu.html">Multiple1menu</a></td>
+<td>List of NCA non-replicated and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="Multipleaic.html">Multipleaic</a></td>
+<td>Akaike information criterion (AIC) method for multiple study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleAICdemo.html">MultipleAICdemo</a></td>
+<td>Akaike information criterion (AIC) method for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleAICoutput.html">MultipleAICoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleAIC_BANOVA.html">MultipleAIC_BANOVA</a></td>
+<td>Akaike information criterion (AIC) method and ANOVA for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleARS.html">MultipleARS</a></td>
+<td>Adjusted R squared (ARS) method for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleARS.BANOVA.html">MultipleARS.BANOVA</a></td>
+<td>Adjusted R squared (ARS) method and ANOVA for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleARSdemo.html">MultipleARSdemo</a></td>
+<td>Adjusted R squared (ARS) method for demo function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleARSoutput.html">MultipleARSoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVA.html">MultipleBANOVA</a></td>
+<td>Statistical analysis (ANOVA(lm), 90CI...)</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVAanalyze.html">MultipleBANOVAanalyze</a></td>
+<td>ANOVA function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVAcsv.html">MultipleBANOVAcsv</a></td>
+<td>choose separator and decimal type for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVAdata.html">MultipleBANOVAdata</a></td>
+<td>Input/Edit data for ANOVA function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVAmenu.html">MultipleBANOVAmenu</a></td>
+<td>List of ANOVA Menu for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVAoutput.html">MultipleBANOVAoutput</a></td>
+<td>Output of ANOVA function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleBANOVAplot.html">MultipleBANOVAplot</a></td>
+<td>BANOVAplot for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="Multipledata.html">Multipledata</a></td>
+<td>Data for NCA analyze for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipledemoBANOVA.html">MultipledemoBANOVA</a></td>
+<td>Statistical analysis (ANOVA(lm), 90CI...)for demo file</td></tr>
+<tr><td style="width: 25%;"><a href="Multipledemomenu.html">Multipledemomenu</a></td>
+<td>menu for NCA demo file</td></tr>
+<tr><td style="width: 25%;"><a href="Multipledemomenu1.html">Multipledemomenu1</a></td>
+<td>menu for NCA demo file</td></tr>
+<tr><td style="width: 25%;"><a href="Multiplego.html">Multiplego</a></td>
+<td>List of bear Menu</td></tr>
+<tr><td style="width: 25%;"><a href="Multiplemenu.html">Multiplemenu</a></td>
+<td>List of NCA non-replicated and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCA.html">MultipleNCA</a></td>
+<td>Noncompartmental analysis (NCA) for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCA.BANOVA.html">MultipleNCA.BANOVA</a></td>
+<td>NCA and ANOVA for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCA.BANOVAanalyze.html">MultipleNCA.BANOVAanalyze</a></td>
+<td>NCA and ANOVA function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCA.BANOVAcsv.html">MultipleNCA.BANOVAcsv</a></td>
+<td>choose separator and decimal type for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCA.BANOVAdata.html">MultipleNCA.BANOVAdata</a></td>
+<td>Input/Edit data for NCA and ANOVA function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCA.BANOVAmenu.html">MultipleNCA.BANOVAmenu</a></td>
+<td>List of NCA and ANOVA Menu for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAanalyze.html">MultipleNCAanalyze</a></td>
+<td>NCA analyze function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAcsv.html">MultipleNCAcsv</a></td>
+<td>choose separator and decimal type for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAdata.html">MultipleNCAdata</a></td>
+<td>Input/Edit data for NCA function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAdemo.html">MultipleNCAdemo</a></td>
+<td>Select the exact 3 data points(NCA) for demo function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAdemo.BANOVA.html">MultipleNCAdemo.BANOVA</a></td>
+<td>Select the exact 3 data points(NCA) and ANOVA for demo function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAmenu.html">MultipleNCAmenu</a></td>
+<td>List of NCA 2x2x2 Menu for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAoutput.html">MultipleNCAoutput</a></td>
+<td>Output of NCA for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAplot.html">MultipleNCAplot</a></td>
+<td>NCAplot for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAsave.html">MultipleNCAsave</a></td>
+<td>Save NCA outputs for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAselect.html">MultipleNCAselect</a></td>
+<td>Select the exact 3 points in NCA for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAselect.BANOVA.html">MultipleNCAselect.BANOVA</a></td>
+<td>Select the exact 3 points in NCA and ANOVA for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAselectdemo.html">MultipleNCAselectdemo</a></td>
+<td>Select the exact 3 points in NCA for demo function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAselectdemo.BANOVA.html">MultipleNCAselectdemo.BANOVA</a></td>
+<td>Select the exact 3 points in NCA and ANOVA for demo function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAselectsave.html">MultipleNCAselectsave</a></td>
+<td>Select the exact 3 points in NCA and Save the data for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleNCAselectsave.BANOVA.html">MultipleNCAselectsave.BANOVA</a></td>
+<td>Select the exact 3 points in NCA and Save the data for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="Multiplentertitle.html">Multiplentertitle</a></td>
+<td>enter Dose, tau, time of last dose, xaxis and yaxis for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="Multiplentertitle.demo.html">Multiplentertitle.demo</a></td>
+<td>enter Dose, tau, time of last dose, xaxis and yaxis for multiple dose for demo file</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaAIC.html">MultipleParaAIC</a></td>
+<td>Akaike information criterion (AIC) method for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaAIC.MIX.html">MultipleParaAIC.MIX</a></td>
+<td>Akaike information criterion (AIC) method-&gt;statictics for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaAICdemo.html">MultipleParaAICdemo</a></td>
+<td>Akaike information criterion (AIC) method for demo function for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaAICoutput.html">MultipleParaAICoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaARS.html">MultipleParaARS</a></td>
+<td>Adjusted R squared (ARS) method for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaARS.MIX.html">MultipleParaARS.MIX</a></td>
+<td>Adjusted R squared (ARS) method and lme for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaARSdemo.html">MultipleParaARSdemo</a></td>
+<td>Adjusted R squared (ARS) method for demo function for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaARSoutput.html">MultipleParaARSoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParadata.html">MultipleParadata</a></td>
+<td>Data for NCA analyze for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParademomenu.html">MultipleParademomenu</a></td>
+<td>menu for NCA demo file for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParademomenu1.html">MultipleParademomenu1</a></td>
+<td>menu for NCA-&gt;Statistical analysis demo file for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParademoMIX.html">MultipleParademoMIX</a></td>
+<td>Statistical analysis (lme, 90CI...)for demo file for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParamenu.html">MultipleParamenu</a></td>
+<td>List of NCA 2x2x1 Menu for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaMIX.html">MultipleParaMIX</a></td>
+<td>Statistical analysis (lme, 90CI...) for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaMIXanalyze.html">MultipleParaMIXanalyze</a></td>
+<td>Split data to perform lme function for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaMIXcsv.html">MultipleParaMIXcsv</a></td>
+<td>choose separator and decimal type for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaMIXdata.html">MultipleParaMIXdata</a></td>
+<td>Input/Edit data for lme function for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaMIXmenu.html">MultipleParaMIXmenu</a></td>
+<td>List of lme Menu for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaMIXoutput.html">MultipleParaMIXoutput</a></td>
+<td>Output of lme function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCA.html">MultipleParaNCA</a></td>
+<td>Noncompartmental analysis (NCA) for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCA.MIX.html">MultipleParaNCA.MIX</a></td>
+<td>NCA and lme for parallel study for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCA.MIXanalyze.html">MultipleParaNCA.MIXanalyze</a></td>
+<td>NCA and lme function for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCA.MIXcsv.html">MultipleParaNCA.MIXcsv</a></td>
+<td>choose separator and decimal type for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCA.MIXdata.html">MultipleParaNCA.MIXdata</a></td>
+<td>Input/Edit data for NCA and lme function for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCA.MIXmenu.html">MultipleParaNCA.MIXmenu</a></td>
+<td>List of NCA and lme Menu for multiple dose</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAanalyze.html">MultipleParaNCAanalyze</a></td>
+<td>NCA analyze function for parallel with multiple dose study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAcsv.html">MultipleParaNCAcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAdata.html">MultipleParaNCAdata</a></td>
+<td>Input/Edit data for NCA function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAdemo.html">MultipleParaNCAdemo</a></td>
+<td>Select the exact 3 data points(NCA) for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAdemo.MIX.html">MultipleParaNCAdemo.MIX</a></td>
+<td>Select the exact 3 data points(NCA) and lme for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAoutput.html">MultipleParaNCAoutput</a></td>
+<td>Output of NCA for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAplot.html">MultipleParaNCAplot</a></td>
+<td>NCAplot for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAsave.html">MultipleParaNCAsave</a></td>
+<td>Save NCA outputs for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAselect.html">MultipleParaNCAselect</a></td>
+<td>Select the exact 3 points in NCA for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAselect.MIX.html">MultipleParaNCAselect.MIX</a></td>
+<td>Select the exact 3 points in NCA and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAselectdemo.html">MultipleParaNCAselectdemo</a></td>
+<td>Select the exact 3 points in NCA for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAselectdemo.MIX.html">MultipleParaNCAselectdemo.MIX</a></td>
+<td>Select the exact 3 points in NCA and lme for demo function (parallel study)</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAselectsave.html">MultipleParaNCAselectsave</a></td>
+<td>Select the exact 3 points in NCA and Save the data for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaNCAselectsave.MIX.html">MultipleParaNCAselectsave.MIX</a></td>
+<td>Select the exact 3 points in NCA and Save the data</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTT.html">MultipleParaTTT</a></td>
+<td>Two Times Tmax (TTT) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTT.MIX.html">MultipleParaTTT.MIX</a></td>
+<td>TTT and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTAIC.html">MultipleParaTTTAIC</a></td>
+<td>TTT and AIC for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTAIC.MIX.html">MultipleParaTTTAIC.MIX</a></td>
+<td>TTT ,AIC and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTAICdemo.html">MultipleParaTTTAICdemo</a></td>
+<td>TTT and AIC for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTAICoutput.html">MultipleParaTTTAICoutput</a></td>
+<td>Output for TTT and AIC for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTARS.html">MultipleParaTTTARS</a></td>
+<td>TTT and ARS for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTARS.MIX.html">MultipleParaTTTARS.MIX</a></td>
+<td>TTT ,ARS and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTARSdemo.html">MultipleParaTTTARSdemo</a></td>
+<td>TTT and ARS for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTARSoutput.html">MultipleParaTTTARSoutput</a></td>
+<td>Output for TTT and ARS for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTTdemo.html">MultipleParaTTTdemo</a></td>
+<td>Two Times Tmax (TTT) method for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleParaTTToutput.html">MultipleParaTTToutput</a></td>
+<td>Output for Two Times Tmax (TTT) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="Multiplestat1menu.html">Multiplestat1menu</a></td>
+<td>List of Statistical analysis non-replicated and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="Multiplestatmenu.html">Multiplestatmenu</a></td>
+<td>List of NCA-&gt;statistics non-replicated and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTT.html">MultipleTTT</a></td>
+<td>Two Times Tmax (TTT) method</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTT.BANOVA.html">MultipleTTT.BANOVA</a></td>
+<td>TTT and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTAIC.html">MultipleTTTAIC</a></td>
+<td>TTT and AIC</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTAIC.BANOVA.html">MultipleTTTAIC.BANOVA</a></td>
+<td>TTT ,AIC and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTAICdemo.html">MultipleTTTAICdemo</a></td>
+<td>TTT and AIC for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTAICoutput.html">MultipleTTTAICoutput</a></td>
+<td>Output for TTT and AIC</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTARS.html">MultipleTTTARS</a></td>
+<td>TTT and ARS</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTARS.BANOVA.html">MultipleTTTARS.BANOVA</a></td>
+<td>TTT ,ARS and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTARSdemo.html">MultipleTTTARSdemo</a></td>
+<td>TTT and ARS for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTARSoutput.html">MultipleTTTARSoutput</a></td>
+<td>Output for TTT and ARS</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTTdemo.html">MultipleTTTdemo</a></td>
+<td>Two Times Tmax (TTT) method for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="MultipleTTToutput.html">MultipleTTToutput</a></td>
+<td>Output for Two Times Tmax (TTT) method</td></tr>
+</table>
+
+<h2><a id="N">-- N --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="NCA.html">NCA</a></td>
+<td>Noncompartmental analysis (NCA)</td></tr>
+<tr><td style="width: 25%;"><a href="NCA.BANOVA.html">NCA.BANOVA</a></td>
+<td>NCA and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="NCA.BANOVAanalyze.html">NCA.BANOVAanalyze</a></td>
+<td>NCA and ANOVA function</td></tr>
+<tr><td style="width: 25%;"><a href="NCA.BANOVAcsv.html">NCA.BANOVAcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="NCA.BANOVAdata.html">NCA.BANOVAdata</a></td>
+<td>Input/Edit data for NCA and ANOVA function</td></tr>
+<tr><td style="width: 25%;"><a href="NCA.BANOVAmenu.html">NCA.BANOVAmenu</a></td>
+<td>List of NCA and ANOVA Menu</td></tr>
+<tr><td style="width: 25%;"><a href="NCAanalyze.html">NCAanalyze</a></td>
+<td>NCA analyze function</td></tr>
+<tr><td style="width: 25%;"><a href="NCAcsv.html">NCAcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="NCAdata.html">NCAdata</a></td>
+<td>Input/Edit data for NCA function</td></tr>
+<tr><td style="width: 25%;"><a href="NCAdemo.html">NCAdemo</a></td>
+<td>Select the exact 3 data points(NCA) for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="NCAdemo.BANOVA.html">NCAdemo.BANOVA</a></td>
+<td>Select the exact 3 data points(NCA) and ANOVA for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="NCAmenu.html">NCAmenu</a></td>
+<td>List of NCA 2x2x2 Menu</td></tr>
+<tr><td style="width: 25%;"><a href="NCAoutput.html">NCAoutput</a></td>
+<td>Output of NCA</td></tr>
+<tr><td style="width: 25%;"><a href="NCAplot.html">NCAplot</a></td>
+<td>NCAplot</td></tr>
+<tr><td style="width: 25%;"><a href="NCAreglplot.html">NCAreglplot</a></td>
+<td>Plot regression lines and save all these plots in a .pdf in NCA</td></tr>
+<tr><td style="width: 25%;"><a href="NCAsave.html">NCAsave</a></td>
+<td>Save NCA outputs</td></tr>
+<tr><td style="width: 25%;"><a href="NCAselect.html">NCAselect</a></td>
+<td>Select 2-6 data points for lambda(z) estimation in NCA</td></tr>
+<tr><td style="width: 25%;"><a href="NCAselect.BANOVA.html">NCAselect.BANOVA</a></td>
+<td>Select the exact 3 points in NCA and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="NCAselectdemo.html">NCAselectdemo</a></td>
+<td>Select the exact 3 points in NCA for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="NCAselectdemo.BANOVA.html">NCAselectdemo.BANOVA</a></td>
+<td>Select the exact 3 points in NCA and ANOVA for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="NCAselectsave.html">NCAselectsave</a></td>
+<td>Select the exact 3 points in NCA and Save the data</td></tr>
+<tr><td style="width: 25%;"><a href="NCAselectsave.BANOVA.html">NCAselectsave.BANOVA</a></td>
+<td>Select the exact 3 points in NCA and Save the data</td></tr>
+<tr><td style="width: 25%;"><a href="normDataWithin.html">normDataWithin</a></td>
+<td>normDataWithin</td></tr>
+</table>
+
+<h2><a id="O">-- O --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="OutputFilez.html">OutputFilez</a></td>
+<td>OutputFilez</td></tr>
+</table>
+
+<h2><a id="P">-- P --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="ParaAIC.html">ParaAIC</a></td>
+<td>Akaike information criterion (AIC) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaAIC.MIX.html">ParaAIC.MIX</a></td>
+<td>Akaike information criterion (AIC) method-&gt;statictics for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaAICdemo.html">ParaAICdemo</a></td>
+<td>Akaike information criterion (AIC) method for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaAICoutput.html">ParaAICoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaARS.html">ParaARS</a></td>
+<td>Adjusted R squared (ARS) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaARS.MIX.html">ParaARS.MIX</a></td>
+<td>Adjusted R squared (ARS) method and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaARSdemo.html">ParaARSdemo</a></td>
+<td>Adjusted R squared (ARS) method for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaARSoutput.html">ParaARSoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="Parademomenu.html">Parademomenu</a></td>
+<td>menu for NCA demo file for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="Parademomenu1.html">Parademomenu1</a></td>
+<td>menu for NCA-&gt;Statistical analysis demo file for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParademoMIX.html">ParademoMIX</a></td>
+<td>Statistical analysis (lme, 90CI...)for demo file for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="Paralleldata.html">Paralleldata</a></td>
+<td>Data for NCA analyze for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="Paramenu.html">Paramenu</a></td>
+<td>List of NCA 2x2x1 Menu</td></tr>
+<tr><td style="width: 25%;"><a href="ParaMIX.html">ParaMIX</a></td>
+<td>Statistical analysis (lme, 90CI...) for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaMIXanalyze.html">ParaMIXanalyze</a></td>
+<td>Split data to perform lme function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaMIXcsv.html">ParaMIXcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="ParaMIXdata.html">ParaMIXdata</a></td>
+<td>Input/Edit data for lme function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaMIXmenu.html">ParaMIXmenu</a></td>
+<td>List of lme Menu</td></tr>
+<tr><td style="width: 25%;"><a href="ParaMIXoutput.html">ParaMIXoutput</a></td>
+<td>Output of lme function</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCA.html">ParaNCA</a></td>
+<td>Noncompartmental analysis (NCA) for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCA.MIX.html">ParaNCA.MIX</a></td>
+<td>NCA and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCA.MIXanalyze.html">ParaNCA.MIXanalyze</a></td>
+<td>NCA and lme function</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCA.MIXcsv.html">ParaNCA.MIXcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCA.MIXdata.html">ParaNCA.MIXdata</a></td>
+<td>Input/Edit data for NCA and lme function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCA.MIXmenu.html">ParaNCA.MIXmenu</a></td>
+<td>List of NCA and lme Menu</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAanalyze.html">ParaNCAanalyze</a></td>
+<td>NCA analyze function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAcsv.html">ParaNCAcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAdata.html">ParaNCAdata</a></td>
+<td>Input/Edit data for NCA function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAdemo.html">ParaNCAdemo</a></td>
+<td>Select the exact 3 data points(NCA) for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAdemo.MIX.html">ParaNCAdemo.MIX</a></td>
+<td>Select the exact 3 data points(NCA) and lme for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAoutput.html">ParaNCAoutput</a></td>
+<td>Output of NCA for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAplot.html">ParaNCAplot</a></td>
+<td>NCAplot for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAsave.html">ParaNCAsave</a></td>
+<td>Save NCA outputs for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAselect.html">ParaNCAselect</a></td>
+<td>Select the exact 3 points in NCA for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAselect.MIX.html">ParaNCAselect.MIX</a></td>
+<td>Select the exact 3 points in NCA and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAselectdemo.html">ParaNCAselectdemo</a></td>
+<td>Select the exact 3 points in NCA for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAselectdemo.MIX.html">ParaNCAselectdemo.MIX</a></td>
+<td>Select the exact 3 points in NCA and lme for demo function (parallel study)</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAselectsave.html">ParaNCAselectsave</a></td>
+<td>Select the exact 3 points in NCA and Save the data for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaNCAselectsave.MIX.html">ParaNCAselectsave.MIX</a></td>
+<td>Select the exact 3 points in NCA and Save the data</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTT.html">ParaTTT</a></td>
+<td>Two Times Tmax (TTT) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTT.MIX.html">ParaTTT.MIX</a></td>
+<td>TTT and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTAIC.html">ParaTTTAIC</a></td>
+<td>TTT and AIC for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTAIC.MIX.html">ParaTTTAIC.MIX</a></td>
+<td>TTT ,AIC and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTAICdemo.html">ParaTTTAICdemo</a></td>
+<td>TTT and AIC for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTAICoutput.html">ParaTTTAICoutput</a></td>
+<td>Output for TTT and AIC for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTARS.html">ParaTTTARS</a></td>
+<td>TTT and ARS for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTARS.MIX.html">ParaTTTARS.MIX</a></td>
+<td>TTT ,ARS and lme for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTARSdemo.html">ParaTTTARSdemo</a></td>
+<td>TTT and ARS for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTARSoutput.html">ParaTTTARSoutput</a></td>
+<td>Output for TTT and ARS for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTTdemo.html">ParaTTTdemo</a></td>
+<td>Two Times Tmax (TTT) method for demo function for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="ParaTTToutput.html">ParaTTToutput</a></td>
+<td>Output for Two Times Tmax (TTT) method for parallel study</td></tr>
+<tr><td style="width: 25%;"><a href="prdcount.html">prdcount</a></td>
+<td>legends for plots</td></tr>
+</table>
+
+<h2><a id="R">-- R --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="Repaic.html">Repaic</a></td>
+<td>Akaike information criterion (AIC) method for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepAIC.MIX.html">RepAIC.MIX</a></td>
+<td>Akaike information criterion (AIC) method-&gt;statictics for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepAICdemo.html">RepAICdemo</a></td>
+<td>Akaike information criterion (AIC) method for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepAICoutput.html">RepAICoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepARS.html">RepARS</a></td>
+<td>Adjusted R squared (ARS) method for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepARS.MIX.html">RepARS.MIX</a></td>
+<td>Adjusted R squared (ARS) method and lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepARSdemo.html">RepARSdemo</a></td>
+<td>Adjusted R squared (ARS) method for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepARSoutput.html">RepARSoutput</a></td>
+<td>Output for Adjusted R squared (ARS) method for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="Repdemomenu.html">Repdemomenu</a></td>
+<td>menu for NCA demo file for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="Repdemomenu1.html">Repdemomenu1</a></td>
+<td>menu for NCA-&gt;Statistical analysis demo file for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepdemoMIX.html">RepdemoMIX</a></td>
+<td>Statistical analysis (lme, 90CI...)for demo file for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="Replicateddata.html">Replicateddata</a></td>
+<td>Data for NCA analyze for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="Repmenu.html">Repmenu</a></td>
+<td>List of NCA 2x2xn Menu</td></tr>
+<tr><td style="width: 25%;"><a href="RepMIX.html">RepMIX</a></td>
+<td>Statistical analysis (lme, 90CI...) for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepMIXanalyze.html">RepMIXanalyze</a></td>
+<td>Split data to perform lme function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepMIXcsv.html">RepMIXcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="RepMIXdata.html">RepMIXdata</a></td>
+<td>Input/Edit data for lme function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepMIXmenu.html">RepMIXmenu</a></td>
+<td>List of lme Menu</td></tr>
+<tr><td style="width: 25%;"><a href="RepMIXoutput.html">RepMIXoutput</a></td>
+<td>Output of lme function</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCA.html">RepNCA</a></td>
+<td>Noncompartmental analysis (NCA) for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCA.MIX.html">RepNCA.MIX</a></td>
+<td>NCA and lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCA.MIXanalyze.html">RepNCA.MIXanalyze</a></td>
+<td>NCA and lme function</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCA.MIXcsv.html">RepNCA.MIXcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCA.MIXdata.html">RepNCA.MIXdata</a></td>
+<td>Input/Edit data for NCA and lme function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCA.MIXmenu.html">RepNCA.MIXmenu</a></td>
+<td>List of NCA and lme Menu</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAanalyze.html">RepNCAanalyze</a></td>
+<td>NCA analyze function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAcsv.html">RepNCAcsv</a></td>
+<td>choose separator and decimal type</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAdata.html">RepNCAdata</a></td>
+<td>Input/Edit data for NCA function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAdemo.html">RepNCAdemo</a></td>
+<td>Select the exact 3 data points(NCA) for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAdemo.MIX.html">RepNCAdemo.MIX</a></td>
+<td>Select the exact 3 data points(NCA) and lme for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAoutput.html">RepNCAoutput</a></td>
+<td>Output of NCA for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAplot.html">RepNCAplot</a></td>
+<td>NCAplot for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAsave.html">RepNCAsave</a></td>
+<td>Save NCA outputs for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAselect.html">RepNCAselect</a></td>
+<td>Select the exact 3 points in NCA for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAselect.MIX.html">RepNCAselect.MIX</a></td>
+<td>Select the exact 3 points in NCA and lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAselectdemo.html">RepNCAselectdemo</a></td>
+<td>Select the exact 3 points in NCA for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAselectdemo.MIX.html">RepNCAselectdemo.MIX</a></td>
+<td>Select the exact 3 points in NCA and lme for demo function (replicated study)</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAselectsave.html">RepNCAselectsave</a></td>
+<td>Select the exact 3 points in NCA and Save the data for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepNCAselectsave.MIX.html">RepNCAselectsave.MIX</a></td>
+<td>Select the exact 3 points in NCA and Save the data</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTT.html">RepTTT</a></td>
+<td>Two Times Tmax (TTT) method for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTT.MIX.html">RepTTT.MIX</a></td>
+<td>TTT and lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTAIC.html">RepTTTAIC</a></td>
+<td>TTT and AIC for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTAIC.MIX.html">RepTTTAIC.MIX</a></td>
+<td>TTT ,AIC and lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTAICdemo.html">RepTTTAICdemo</a></td>
+<td>TTT and AIC for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTAICoutput.html">RepTTTAICoutput</a></td>
+<td>Output for TTT and AIC for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTARS.html">RepTTTARS</a></td>
+<td>TTT and ARS for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTARS.MIX.html">RepTTTARS.MIX</a></td>
+<td>TTT ,ARS and lme for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTARSdemo.html">RepTTTARSdemo</a></td>
+<td>TTT and ARS for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTARSoutput.html">RepTTTARSoutput</a></td>
+<td>Output for TTT and ARS for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTTdemo.html">RepTTTdemo</a></td>
+<td>Two Times Tmax (TTT) method for demo function for replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="RepTTToutput.html">RepTTToutput</a></td>
+<td>Output for Two Times Tmax (TTT) method for replicated study</td></tr>
+</table>
+
+<h2><a id="S">-- S --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="Singlego.html">Singlego</a></td>
+<td>List of bear Menu</td></tr>
+<tr><td style="width: 25%;"><a href="stat1menu.html">stat1menu</a></td>
+<td>List of Statistical analysis non-replicated and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="statmenu.html">statmenu</a></td>
+<td>List of Statistical analysis non-replicated and replicated study</td></tr>
+<tr><td style="width: 25%;"><a href="summarySE.html">summarySE</a></td>
+<td>summarySE</td></tr>
+<tr><td style="width: 25%;"><a href="summarySEwithin.html">summarySEwithin</a></td>
+<td>summarySEwithin</td></tr>
+</table>
+
+<h2><a id="T">-- T --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="test.nca_stat.html">test.nca_stat</a></td>
+<td>demo for NCA-anova demo file</td></tr>
+<tr><td style="width: 25%;"><a href="TotalSingledata.html">TotalSingledata</a></td>
+<td>Data for NCA analyze</td></tr>
+<tr><td style="width: 25%;"><a href="TTT.html">TTT</a></td>
+<td>Two Times Tmax (TTT) method</td></tr>
+<tr><td style="width: 25%;"><a href="TTT.BANOVA.html">TTT.BANOVA</a></td>
+<td>TTT and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="TTTAIC.html">TTTAIC</a></td>
+<td>TTT and AIC</td></tr>
+<tr><td style="width: 25%;"><a href="TTTAIC.BANOVA.html">TTTAIC.BANOVA</a></td>
+<td>TTT ,AIC and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="TTTAICdemo.html">TTTAICdemo</a></td>
+<td>TTT and AIC for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="TTTAICoutput.html">TTTAICoutput</a></td>
+<td>Output for TTT and AIC</td></tr>
+<tr><td style="width: 25%;"><a href="TTTARS.html">TTTARS</a></td>
+<td>TTT and ARS</td></tr>
+<tr><td style="width: 25%;"><a href="TTTARS.BANOVA.html">TTTARS.BANOVA</a></td>
+<td>TTT ,ARS and ANOVA</td></tr>
+<tr><td style="width: 25%;"><a href="TTTARSdemo.html">TTTARSdemo</a></td>
+<td>TTT and ARS for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="TTTARSoutput.html">TTTARSoutput</a></td>
+<td>Output for TTT and ARS</td></tr>
+<tr><td style="width: 25%;"><a href="TTTdemo.html">TTTdemo</a></td>
+<td>Two Times Tmax (TTT) method for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="TTTdemo.BANOVA.html">TTTdemo.BANOVA</a></td>
+<td>Two Times Tmax (TTT) method and ANOVA for demo function</td></tr>
+<tr><td style="width: 25%;"><a href="TTToutput.html">TTToutput</a></td>
+<td>Output for Two Times Tmax (TTT) method</td></tr>
+</table>
+
+<h2><a id="X">-- X --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="xtick.html">xtick</a></td>
+<td>x-tick</td></tr>
+</table>
+
+<h2><a id="Y">-- Y --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="ytick.html">ytick</a></td>
+<td>y-tick</td></tr>
+</table>
+</div></body></html>

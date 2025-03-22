@@ -1,0 +1,513 @@
+AIC_BANOVA              Akaike information criterion (AIC) method and
+                        ANOVA
+AICdemo                 Akaike information criterion (AIC) method for
+                        demo function
+AICoutput               Output for Adjusted R squared (ARS) method
+ARS                     Adjusted R squared (ARS) method
+ARS.BANOVA              Adjusted R squared (ARS) method and ANOVA
+ARSdemo                 Adjusted R squared (ARS) method for demo
+                        function
+ARSdemo.BANOVA          Adjusted R squared (ARS) method and ANOVA for
+                        demo function
+ARSoutput               Output for Adjusted R squared (ARS) method
+BANOVA                  Statistical analysis (ANOVA(lm), 90CI...)
+BANOVAanalyze           ANOVA function
+BANOVAcsv               choose separator and decimal type
+BANOVAdata              Input/Edit data for ANOVA function
+BANOVAmenu              List of ANOVA Menu
+BANOVAoutput            Output of ANOVA function
+BANOVAplot              BANOVAplot
+Multiple1menu           List of NCA non-replicated and replicated study
+MultipleAIC_BANOVA      Akaike information criterion (AIC) method and
+                        ANOVA for multiple dose
+MultipleAICdemo         Akaike information criterion (AIC) method for
+                        demo function
+MultipleAICoutput       Output for Adjusted R squared (ARS) method for
+                        multiple dose
+MultipleARS             Adjusted R squared (ARS) method for multiple
+                        dose
+MultipleARS.BANOVA      Adjusted R squared (ARS) method and ANOVA for
+                        multiple dose
+MultipleARSdemo         Adjusted R squared (ARS) method for demo
+                        function for multiple dose
+MultipleARSoutput       Output for Adjusted R squared (ARS) method for
+                        multiple dose
+MultipleBANOVA          Statistical analysis (ANOVA(lm), 90CI...)
+MultipleBANOVAanalyze   ANOVA function for multiple dose
+MultipleBANOVAcsv       choose separator and decimal type for multiple
+                        dose
+MultipleBANOVAdata      Input/Edit data for ANOVA function for multiple
+                        dose
+MultipleBANOVAmenu      List of ANOVA Menu for multiple dose
+MultipleBANOVAoutput    Output of ANOVA function for multiple dose
+MultipleBANOVAplot      BANOVAplot for multiple dose
+MultipleNCA             Noncompartmental analysis (NCA) for multiple
+                        dose
+MultipleNCA.BANOVA      NCA and ANOVA for multiple dose
+MultipleNCA.BANOVAanalyze
+                        NCA and ANOVA function for multiple dose
+MultipleNCA.BANOVAcsv   choose separator and decimal type for multiple
+                        dose
+MultipleNCA.BANOVAdata
+                        Input/Edit data for NCA and ANOVA function for
+                        multiple dose
+MultipleNCA.BANOVAmenu
+                        List of NCA and ANOVA Menu for multiple dose
+MultipleNCAanalyze      NCA analyze function for multiple dose
+MultipleNCAcsv          choose separator and decimal type for multiple
+                        dose
+MultipleNCAdata         Input/Edit data for NCA function for multiple
+                        dose
+MultipleNCAdemo         Select the exact 3 data points(NCA) for demo
+                        function for multiple dose
+MultipleNCAdemo.BANOVA
+                        Select the exact 3 data points(NCA) and ANOVA
+                        for demo function for multiple dose
+MultipleNCAmenu         List of NCA 2x2x2 Menu for multiple dose
+MultipleNCAoutput       Output of NCA for multiple dose
+MultipleNCAplot         NCAplot for multiple dose
+MultipleNCAsave         Save NCA outputs for multiple dose
+MultipleNCAselect       Select the exact 3 points in NCA for multiple
+                        dose
+MultipleNCAselect.BANOVA
+                        Select the exact 3 points in NCA and ANOVA for
+                        multiple dose
+MultipleNCAselectdemo   Select the exact 3 points in NCA for demo
+                        function for multiple dose
+MultipleNCAselectdemo.BANOVA
+                        Select the exact 3 points in NCA and ANOVA for
+                        demo function for multiple dose
+MultipleNCAselectsave   Select the exact 3 points in NCA and Save the
+                        data for multiple dose
+MultipleNCAselectsave.BANOVA
+                        Select the exact 3 points in NCA and Save the
+                        data for multiple dose
+MultipleParaAIC         Akaike information criterion (AIC) method for
+                        parallel with multiple dose study
+MultipleParaAIC.MIX     Akaike information criterion (AIC)
+                        method->statictics for parallel with multiple
+                        dose study
+MultipleParaAICdemo     Akaike information criterion (AIC) method for
+                        demo function for parallel with multiple dose
+                        study
+MultipleParaAICoutput   Output for Adjusted R squared (ARS) method for
+                        parallel with multiple dose study
+MultipleParaARS         Adjusted R squared (ARS) method for parallel
+                        with multiple dose study
+MultipleParaARS.MIX     Adjusted R squared (ARS) method and lme for
+                        parallel with multiple dose study
+MultipleParaARSdemo     Adjusted R squared (ARS) method for demo
+                        function for parallel with multiple dose study
+MultipleParaARSoutput   Output for Adjusted R squared (ARS) method for
+                        parallel study
+MultipleParaMIX         Statistical analysis (lme, 90CI...) for
+                        parallel with multiple dose study
+MultipleParaMIXanalyze
+                        Split data to perform lme function for parallel
+                        with multiple dose study
+MultipleParaMIXcsv      choose separator and decimal type for multiple
+                        dose
+MultipleParaMIXdata     Input/Edit data for lme function for parallel
+                        with multiple dose study
+MultipleParaMIXmenu     List of lme Menu for multiple dose
+MultipleParaMIXoutput   Output of lme function for multiple dose
+MultipleParaNCA         Noncompartmental analysis (NCA) for parallel
+                        with multiple dose study
+MultipleParaNCA.MIX     NCA and lme for parallel study for multiple
+                        dose
+MultipleParaNCA.MIXanalyze
+                        NCA and lme function for multiple dose
+MultipleParaNCA.MIXcsv
+                        choose separator and decimal type for multiple
+                        dose
+MultipleParaNCA.MIXdata
+                        Input/Edit data for NCA and lme function for
+                        parallel with multiple dose study
+MultipleParaNCA.MIXmenu
+                        List of NCA and lme Menu for multiple dose
+MultipleParaNCAanalyze
+                        NCA analyze function for parallel with multiple
+                        dose study
+MultipleParaNCAcsv      choose separator and decimal type
+MultipleParaNCAdata     Input/Edit data for NCA function for parallel
+                        study
+MultipleParaNCAdemo     Select the exact 3 data points(NCA) for demo
+                        function for parallel study
+MultipleParaNCAdemo.MIX
+                        Select the exact 3 data points(NCA) and lme for
+                        demo function
+MultipleParaNCAoutput   Output of NCA for parallel study
+MultipleParaNCAplot     NCAplot for parallel study
+MultipleParaNCAsave     Save NCA outputs for parallel study
+MultipleParaNCAselect   Select the exact 3 points in NCA for parallel
+                        study
+MultipleParaNCAselect.MIX
+                        Select the exact 3 points in NCA and lme for
+                        parallel study
+MultipleParaNCAselectdemo
+                        Select the exact 3 points in NCA for demo
+                        function for parallel study
+MultipleParaNCAselectdemo.MIX
+                        Select the exact 3 points in NCA and lme for
+                        demo function (parallel study)
+MultipleParaNCAselectsave
+                        Select the exact 3 points in NCA and Save the
+                        data for parallel study
+MultipleParaNCAselectsave.MIX
+                        Select the exact 3 points in NCA and Save the
+                        data
+MultipleParaTTT         Two Times Tmax (TTT) method for parallel study
+MultipleParaTTT.MIX     TTT and lme for parallel study
+MultipleParaTTTAIC      TTT and AIC for parallel study
+MultipleParaTTTAIC.MIX
+                        TTT ,AIC and lme for parallel study
+MultipleParaTTTAICdemo
+                        TTT and AIC for demo function for parallel
+                        study
+MultipleParaTTTAICoutput
+                        Output for TTT and AIC for parallel study
+MultipleParaTTTARS      TTT and ARS for parallel study
+MultipleParaTTTARS.MIX
+                        TTT ,ARS and lme for parallel study
+MultipleParaTTTARSdemo
+                        TTT and ARS for demo function for parallel
+                        study
+MultipleParaTTTARSoutput
+                        Output for TTT and ARS for parallel study
+MultipleParaTTTdemo     Two Times Tmax (TTT) method for demo function
+                        for parallel study
+MultipleParaTTToutput   Output for Two Times Tmax (TTT) method for
+                        parallel study
+MultipleParadata        Data for NCA analyze for parallel with multiple
+                        dose study
+MultipleParademoMIX     Statistical analysis (lme, 90CI...)for demo
+                        file for parallel with multiple dose study
+MultipleParademomenu    menu for NCA demo file for parallel with
+                        multiple dose study
+MultipleParademomenu1   menu for NCA->Statistical analysis demo file
+                        for parallel with multiple dose study
+MultipleParamenu        List of NCA 2x2x1 Menu for multiple dose
+MultipleTTT             Two Times Tmax (TTT) method
+MultipleTTT.BANOVA      TTT and ANOVA
+MultipleTTTAIC          TTT and AIC
+MultipleTTTAIC.BANOVA   TTT ,AIC and ANOVA
+MultipleTTTAICdemo      TTT and AIC for demo function
+MultipleTTTAICoutput    Output for TTT and AIC
+MultipleTTTARS          TTT and ARS
+MultipleTTTARS.BANOVA   TTT ,ARS and ANOVA
+MultipleTTTARSdemo      TTT and ARS for demo function
+MultipleTTTARSoutput    Output for TTT and ARS
+MultipleTTTdemo         Two Times Tmax (TTT) method for demo function
+MultipleTTToutput       Output for Two Times Tmax (TTT) method
+Multipleaic             Akaike information criterion (AIC) method for
+                        multiple study
+Multipledata            Data for NCA analyze for multiple dose
+MultipledemoBANOVA      Statistical analysis (ANOVA(lm), 90CI...)for
+                        demo file
+Multipledemomenu        menu for NCA demo file
+Multipledemomenu1       menu for NCA demo file
+Multiplego              List of bear Menu
+Multiplemenu            List of NCA non-replicated and replicated study
+Multiplentertitle       enter Dose, tau, time of last dose, xaxis and
+                        yaxis for multiple dose
+Multiplentertitle.demo
+                        enter Dose, tau, time of last dose, xaxis and
+                        yaxis for multiple dose for demo file
+Multiplestat1menu       List of Statistical analysis non-replicated and
+                        replicated study
+Multiplestatmenu        List of NCA->statistics non-replicated and
+                        replicated study
+NCA                     Noncompartmental analysis (NCA)
+NCA.BANOVA              NCA and ANOVA
+NCA.BANOVAanalyze       NCA and ANOVA function
+NCA.BANOVAcsv           choose separator and decimal type
+NCA.BANOVAdata          Input/Edit data for NCA and ANOVA function
+NCA.BANOVAmenu          List of NCA and ANOVA Menu
+NCAanalyze              NCA analyze function
+NCAcsv                  choose separator and decimal type
+NCAdata                 Input/Edit data for NCA function
+NCAdemo                 Select the exact 3 data points(NCA) for demo
+                        function
+NCAdemo.BANOVA          Select the exact 3 data points(NCA) and ANOVA
+                        for demo function
+NCAmenu                 List of NCA 2x2x2 Menu
+NCAoutput               Output of NCA
+NCAplot                 NCAplot
+NCAreglplot             Plot regression lines and save all these plots
+                        in a .pdf in NCA
+NCAsave                 Save NCA outputs
+NCAselect               Select 2-6 data points for lambda(z) estimation
+                        in NCA
+NCAselect.BANOVA        Select the exact 3 points in NCA and ANOVA
+NCAselectdemo           Select the exact 3 points in NCA for demo
+                        function
+NCAselectdemo.BANOVA    Select the exact 3 points in NCA and ANOVA for
+                        demo function
+NCAselectsave           Select the exact 3 points in NCA and Save the
+                        data
+NCAselectsave.BANOVA    Select the exact 3 points in NCA and Save the
+                        data
+OutputFilez             OutputFilez
+ParaAIC                 Akaike information criterion (AIC) method for
+                        parallel study
+ParaAIC.MIX             Akaike information criterion (AIC)
+                        method->statictics for parallel study
+ParaAICdemo             Akaike information criterion (AIC) method for
+                        demo function for parallel study
+ParaAICoutput           Output for Adjusted R squared (ARS) method for
+                        parallel study
+ParaARS                 Adjusted R squared (ARS) method for parallel
+                        study
+ParaARS.MIX             Adjusted R squared (ARS) method and lme for
+                        parallel study
+ParaARSdemo             Adjusted R squared (ARS) method for demo
+                        function for parallel study
+ParaARSoutput           Output for Adjusted R squared (ARS) method for
+                        parallel study
+ParaMIX                 Statistical analysis (lme, 90CI...) for
+                        parallel study
+ParaMIXanalyze          Split data to perform lme function for parallel
+                        study
+ParaMIXcsv              choose separator and decimal type
+ParaMIXdata             Input/Edit data for lme function for parallel
+                        study
+ParaMIXmenu             List of lme Menu
+ParaMIXoutput           Output of lme function
+ParaNCA                 Noncompartmental analysis (NCA) for parallel
+                        study
+ParaNCA.MIX             NCA and lme for parallel study
+ParaNCA.MIXanalyze      NCA and lme function
+ParaNCA.MIXcsv          choose separator and decimal type
+ParaNCA.MIXdata         Input/Edit data for NCA and lme function for
+                        parallel study
+ParaNCA.MIXmenu         List of NCA and lme Menu
+ParaNCAanalyze          NCA analyze function for parallel study
+ParaNCAcsv              choose separator and decimal type
+ParaNCAdata             Input/Edit data for NCA function for parallel
+                        study
+ParaNCAdemo             Select the exact 3 data points(NCA) for demo
+                        function for parallel study
+ParaNCAdemo.MIX         Select the exact 3 data points(NCA) and lme for
+                        demo function
+ParaNCAoutput           Output of NCA for parallel study
+ParaNCAplot             NCAplot for parallel study
+ParaNCAsave             Save NCA outputs for parallel study
+ParaNCAselect           Select the exact 3 points in NCA for parallel
+                        study
+ParaNCAselect.MIX       Select the exact 3 points in NCA and lme for
+                        parallel study
+ParaNCAselectdemo       Select the exact 3 points in NCA for demo
+                        function for parallel study
+ParaNCAselectdemo.MIX   Select the exact 3 points in NCA and lme for
+                        demo function (parallel study)
+ParaNCAselectsave       Select the exact 3 points in NCA and Save the
+                        data for parallel study
+ParaNCAselectsave.MIX   Select the exact 3 points in NCA and Save the
+                        data
+ParaTTT                 Two Times Tmax (TTT) method for parallel study
+ParaTTT.MIX             TTT and lme for parallel study
+ParaTTTAIC              TTT and AIC for parallel study
+ParaTTTAIC.MIX          TTT ,AIC and lme for parallel study
+ParaTTTAICdemo          TTT and AIC for demo function for parallel
+                        study
+ParaTTTAICoutput        Output for TTT and AIC for parallel study
+ParaTTTARS              TTT and ARS for parallel study
+ParaTTTARS.MIX          TTT ,ARS and lme for parallel study
+ParaTTTARSdemo          TTT and ARS for demo function for parallel
+                        study
+ParaTTTARSoutput        Output for TTT and ARS for parallel study
+ParaTTTdemo             Two Times Tmax (TTT) method for demo function
+                        for parallel study
+ParaTTToutput           Output for Two Times Tmax (TTT) method for
+                        parallel study
+ParademoMIX             Statistical analysis (lme, 90CI...)for demo
+                        file for parallel study
+Parademomenu            menu for NCA demo file for parallel study
+Parademomenu1           menu for NCA->Statistical analysis demo file
+                        for parallel study
+Paralleldata            Data for NCA analyze for parallel study
+Paramenu                List of NCA 2x2x1 Menu
+RepAIC.MIX              Akaike information criterion (AIC)
+                        method->statictics for replicated study
+RepAICdemo              Akaike information criterion (AIC) method for
+                        demo function for replicated study
+RepAICoutput            Output for Adjusted R squared (ARS) method for
+                        replicated study
+RepARS                  Adjusted R squared (ARS) method for replicated
+                        study
+RepARS.MIX              Adjusted R squared (ARS) method and lme for
+                        replicated study
+RepARSdemo              Adjusted R squared (ARS) method for demo
+                        function for replicated study
+RepARSoutput            Output for Adjusted R squared (ARS) method for
+                        replicated study
+RepMIX                  Statistical analysis (lme, 90CI...) for
+                        replicated study
+RepMIXanalyze           Split data to perform lme function for
+                        replicated study
+RepMIXcsv               choose separator and decimal type
+RepMIXdata              Input/Edit data for lme function for replicated
+                        study
+RepMIXmenu              List of lme Menu
+RepMIXoutput            Output of lme function
+RepNCA                  Noncompartmental analysis (NCA) for replicated
+                        study
+RepNCA.MIX              NCA and lme for replicated study
+RepNCA.MIXanalyze       NCA and lme function
+RepNCA.MIXcsv           choose separator and decimal type
+RepNCA.MIXdata          Input/Edit data for NCA and lme function for
+                        replicated study
+RepNCA.MIXmenu          List of NCA and lme Menu
+RepNCAanalyze           NCA analyze function for replicated study
+RepNCAcsv               choose separator and decimal type
+RepNCAdata              Input/Edit data for NCA function for replicated
+                        study
+RepNCAdemo              Select the exact 3 data points(NCA) for demo
+                        function for replicated study
+RepNCAdemo.MIX          Select the exact 3 data points(NCA) and lme for
+                        demo function
+RepNCAoutput            Output of NCA for replicated study
+RepNCAplot              NCAplot for replicated study
+RepNCAsave              Save NCA outputs for replicated study
+RepNCAselect            Select the exact 3 points in NCA for replicated
+                        study
+RepNCAselect.MIX        Select the exact 3 points in NCA and lme for
+                        replicated study
+RepNCAselectdemo        Select the exact 3 points in NCA for demo
+                        function for replicated study
+RepNCAselectdemo.MIX    Select the exact 3 points in NCA and lme for
+                        demo function (replicated study)
+RepNCAselectsave        Select the exact 3 points in NCA and Save the
+                        data for replicated study
+RepNCAselectsave.MIX    Select the exact 3 points in NCA and Save the
+                        data
+RepTTT                  Two Times Tmax (TTT) method for replicated
+                        study
+RepTTT.MIX              TTT and lme for replicated study
+RepTTTAIC               TTT and AIC for replicated study
+RepTTTAIC.MIX           TTT ,AIC and lme for replicated study
+RepTTTAICdemo           TTT and AIC for demo function for replicated
+                        study
+RepTTTAICoutput         Output for TTT and AIC for replicated study
+RepTTTARS               TTT and ARS for replicated study
+RepTTTARS.MIX           TTT ,ARS and lme for replicated study
+RepTTTARSdemo           TTT and ARS for demo function for replicated
+                        study
+RepTTTARSoutput         Output for TTT and ARS for replicated study
+RepTTTdemo              Two Times Tmax (TTT) method for demo function
+                        for replicated study
+RepTTToutput            Output for Two Times Tmax (TTT) method for
+                        replicated study
+Repaic                  Akaike information criterion (AIC) method for
+                        replicated study
+RepdemoMIX              Statistical analysis (lme, 90CI...)for demo
+                        file for replicated study
+Repdemomenu             menu for NCA demo file for replicated study
+Repdemomenu1            menu for NCA->Statistical analysis demo file
+                        for replicated study
+Replicateddata          Data for NCA analyze for replicated study
+Repmenu                 List of NCA 2x2xn Menu
+Singlego                List of bear Menu
+TTT                     Two Times Tmax (TTT) method
+TTT.BANOVA              TTT and ANOVA
+TTTAIC                  TTT and AIC
+TTTAIC.BANOVA           TTT ,AIC and ANOVA
+TTTAICdemo              TTT and AIC for demo function
+TTTAICoutput            Output for TTT and AIC
+TTTARS                  TTT and ARS
+TTTARS.BANOVA           TTT ,ARS and ANOVA
+TTTARSdemo              TTT and ARS for demo function
+TTTARSoutput            Output for TTT and ARS
+TTTdemo                 Two Times Tmax (TTT) method for demo function
+TTTdemo.BANOVA          Two Times Tmax (TTT) method and ANOVA for demo
+                        function
+TTToutput               Output for Two Times Tmax (TTT) method
+TotalSingledata         Data for NCA analyze
+about.bear              about.bear
+aic                     Akaike information criterion (AIC) method
+bear.setup              Setup module for bear
+bye                     The final step Menu
+create.products_sum     create.products_sum
+demoBANOVA              Statistical analysis (ANOVA(lm), 90CI...)for
+                        demo file
+demo_datasets_gen       To generate all demo datasets for testing
+                        purposes
+demomenu                menu for NCA demo file
+demomenu1               menu for NCA demo file
+demopara                Demo for sample size estimation
+description_AIC         Description for Akaike information criterion
+                        (AIC) method
+description_ARS         Description for Adjusted R squared (ARS) method
+description_BANOVA      Description for ANOVA
+description_BE_criteria
+                        Display BE criteia for Two One-Sided Test for
+                        all pivotal parameters
+description_Multipledrugcode
+                        Description for drug code for multiple study
+description_NCA         Description for Noncompartmental analysis (NCA)
+description_NCAcsv      Description for NCA csv file
+description_NCAinput    Description for NCA input data
+description_ParaMIX     Description for lme for parallel study
+description_ParaNCAcsv
+                        Description for NCA csv file for parallel study
+description_ParaNCAinput
+                        Description for NCA input data for parallel
+                        study
+description_RepMIX      Description for lme for replicated study
+description_RepNCAcsv   Description of NCA csv file for replicated
+                        study
+description_RepNCAinput
+                        Description for NCA input data for replicated
+                        study
+description_Repdrugcode
+                        Description of drug code for replicated study
+description_TOST1_lnAUC0INF
+                        Description for Two One-Sided Test for
+                        lnAUC0INF
+description_TOST1_lnAUC0t
+                        Description for Two One-Sided Test for lnAUC0t
+description_TOST1_lnCmax
+                        Description for Two One-Sided Test for lnCmax
+description_TOST_lnAUC0INF
+                        Description for Two One-Sided Test for
+                        lnAUC0INF
+description_TOST_lnAUC0t
+                        Description for Two One-Sided Test for lnAUC0t
+description_TOST_lnCmax
+                        Description for Two One-Sided Test for lnCmax
+description_TTT         Description for Two Times Tmax (TTT) method
+description_TTTAIC      Description for Two-Times-Tmax (TTT) and Akaike
+                        information criterion (AIC)
+description_TTTARS      Description for Two Times Tmax (TTT) and
+                        Adjusted R squared (ARS)
+description_drug        Description for drug
+description_drugcode    Description for drug code
+description_import      Description for import csv
+description_load        Description for load Rdata
+description_plot        Description for plot
+description_pointselect
+                        description_pointselect
+description_version     Description for version
+entertitle              enter Dose, xaxis and yaxis
+entertitle.demo         enter Dose, xaxis and yaxis for demo file
+go                      List of bear Menu
+helper.func             helper.func
+icd.check               icd.check
+indiv_dp.output         to generate list of individual data points as
+                        .csv format
+lm.mod                  module to run both lm() and aov()
+lme_lm.mod              module to run both lme() or lm()
+logdata                 Sample size estimation for log transformation
+                        data for crossover and replicated study
+logo_plot_desc          Description for NCA/ODA plots version
+normDataWithin          normDataWithin
+prdcount                legends for plots
+stat1menu               List of Statistical analysis non-replicated and
+                        replicated study
+statmenu                List of Statistical analysis non-replicated and
+                        replicated study
+summarySE               summarySE
+summarySEwithin         summarySEwithin
+test.nca_stat           demo for NCA-anova demo file
+xtick                   x-tick
+ytick                   y-tick
