@@ -1,0 +1,27 @@
+# Export all names
+exportPattern("^[a-zA-Z]")
+import(gWidgets)
+
+### importFrom("sciplot",???) ### still cannot find which func is called from this package... been replaced by ggplot2?
+importFrom("grid",unit,grid.raster)
+importFrom("nlme",lme,lmeControl,varFunc,varIdent,lmList)  ### lmList for manual selection
+importFrom("reshape2",melt)       ### not from 'reshape'!
+importFrom("plotrix",thigmophobe.labels)
+importFrom("ICSNP",HotellingsT2)  ### for ODA
+importFrom("reshape",rename)      ### not from 'reshape2'!
+### importFrom("plyr",ddply,arrange)  ### for helper func; 'arrange' for v2.7.8 used in tmax_stat()
+importFrom("plyr",ddply)  ### for helper func
+importFrom("gdata",NAToUnknown,trim)
+importFrom("png",readPNG)
+importFrom("ggplot2",ggplot,aes,scale_fill_discrete,geom_point,
+            geom_line,labs,theme,element_text,scale_colour_discrete,
+            scale_shape_discrete,scale_y_log10,geom_errorbar,
+            element_blank,element_line,scale_x_continuous,scale_y_continuous,
+            ylim,xlim)
+importFrom("randomizeBE",RL4)
+importFrom("randomizeBE",sequences)                ### since v2.8.6
+importFrom("randomizeBE",williams)                 ### since v2.8.6
+### importFrom("data.table",fread)                 ### since v2.7.8; abandoned this since v2.8.4
+importFrom("coin",wilcox_test)                     ### since v2.7.8
+### importFrom("stringr",str_detect)               ### since v2.7.8
+### importFrom("rChoiceDialogs",rchoose.files)     ### since v2.7.8
